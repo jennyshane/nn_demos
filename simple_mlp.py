@@ -14,7 +14,7 @@ numsamples=2000
 
 class1center=[0, 0]
 
-class2param=np.random.rand(numsamples)*np.pi
+class2param=np.random.rand(numsamples)*np.pi*1.9
 class2center=np.array([4*np.sin(class2param), 4*np.cos(class2param)]).T
 
 points1=class1center+np.random.randn(numsamples, 2)
